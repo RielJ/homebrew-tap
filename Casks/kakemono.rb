@@ -1,9 +1,9 @@
 cask "kakemono" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "34be128db815ba73396f55ee2c3d3103dd8ebf138d1c13b5837f806ce2000545",
-         intel: "0b7a01aee6bc6001b101cbef33c794fe19f31cb35babd8cd974cbaa0cd6a84bb"
+  version "0.3.1"
+  sha256 arm:   "dc9cb3981a88688a1d375cf2972bf8af5ff9c9c3f21b5b091607b72091580e85",
+         intel: "f23f8f2c4887841e161a1104ebd54dde6e32a03f476d7b12d8efbfba0ff5ccb0"
 
   url "https://github.com/RielJ/kakemono/releases/download/v#{version}/kakemono-macos-#{arch}.dmg"
   name "kakemono"
