@@ -1,6 +1,6 @@
 class KakemonoCli < Formula
   desc "Wallpaper manager CLI and headless daemon"
-  homepage "https://github.com/RielJ/kakemono"
+  homepage "https://kakemono.rielj.xyz"
   license "MIT"
 
   livecheck do
@@ -10,23 +10,23 @@ class KakemonoCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/RielJ/kakemono/releases/download/v0.3.1/kakemono-cli-macos-arm64.tar.gz"
-      sha256 "87c072809cb0277674a47ce403cc2ca7bfb49ae43a8a10bbd313cd55e39a3f4d"
+      url "https://github.com/RielJ/kakemono/releases/download/v0.3.2/kakemono-cli-macos-arm64.tar.gz"
+      sha256 "ff630181168d242053c5cc468cc2930c34d88ae55351fe7cc761f81b6527241d"
     end
     on_intel do
-      url "https://github.com/RielJ/kakemono/releases/download/v0.3.1/kakemono-cli-macos-x64.tar.gz"
-      sha256 "2f5ce85b7b3598f4089e4f67280fd905f14b6c6c07d8b7433c244fbff97a969a"
+      url "https://github.com/RielJ/kakemono/releases/download/v0.3.2/kakemono-cli-macos-x64.tar.gz"
+      sha256 "1cc483a2c6361eae9c6fd3cc3aca5a3f02e9d8c1ad8becec03c62ecc35d377f5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/RielJ/kakemono/releases/download/v0.3.1/kakemono-cli-linux-arm64.tar.gz"
-      sha256 "eb7b33740d6ccbbb3c9931e4413e21711eb7931c21dc607526f174e56d8c300d"
+      url "https://github.com/RielJ/kakemono/releases/download/v0.3.2/kakemono-cli-linux-arm64.tar.gz"
+      sha256 "d40af1021f119bf1f72d3da310a101cbebc6b0cd315948f655db7fc7823893cd"
     end
     on_intel do
-      url "https://github.com/RielJ/kakemono/releases/download/v0.3.1/kakemono-cli-linux-x64.tar.gz"
-      sha256 "e862073e1577cc64f3ecfba972d022227e313eb3c1bb82a6b70dda582d391368"
+      url "https://github.com/RielJ/kakemono/releases/download/v0.3.2/kakemono-cli-linux-x64.tar.gz"
+      sha256 "d53ab0f9041e20b01dd37d11989f19961183a2c3d59cf4ee4688f47872bd962e"
     end
   end
 

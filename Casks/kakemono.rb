@@ -1,14 +1,14 @@
 cask "kakemono" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.1"
-  sha256 arm:   "dc9cb3981a88688a1d375cf2972bf8af5ff9c9c3f21b5b091607b72091580e85",
-         intel: "f23f8f2c4887841e161a1104ebd54dde6e32a03f476d7b12d8efbfba0ff5ccb0"
+  version "0.3.2"
+  sha256 arm:   "4bd36dfcc38fabde84938583aaca96e3aef3dbd8b61ebbd230c30e3981e444c2",
+         intel: "bd1e16b087920cdde292ec841927d1efaef9848e1488602a10e9dbd0a17b1132"
 
   url "https://github.com/RielJ/kakemono/releases/download/v#{version}/kakemono-macos-#{arch}.dmg"
   name "kakemono"
   desc "Wallpaper manager with a tray app, a picker and many image sources"
-  homepage "https://github.com/RielJ/kakemono"
+  homepage "https://kakemono.rielj.xyz"
 
   livecheck do
     url :url
